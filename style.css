@@ -1,0 +1,79 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, sans serif;
+}
+
+#profile-card {
+    padding: 20px;
+    border: 20 px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+}
+
+#profile-card ing {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #eee;
+}
+
+button:hover {
+    background-color: #39399b;
+    color:white;
+}
+
+.input-group {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.input-group input {
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+} 
+
+@media (max-width: 600px) {
+    #profile-card {
+        width: 90%
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
