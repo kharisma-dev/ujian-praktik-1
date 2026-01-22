@@ -1,6 +1,6 @@
 const inputName = document.getElementById ('input-name');
 const btnUpdateName = document.getElementById ('btn-update-name');
-const btnChangeTheme = document.getElementById ('btn-change-Theme');
+const btnChangeTheme = document.getElementById ('btn-change-theme');
 const profilName = document.getElementById ('profil-name');
 const profilCard = document.getElementById ('profil-card');
 

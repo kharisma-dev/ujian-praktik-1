@@ -1,4 +1,4 @@
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,18 +11,18 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-family: Arial, sans serif;
+    font-family: Lato, sans-serif;
 }
 
-#profile-card {
+#profil-card {
     padding: 20px;
-    border: 20 px;
+    border: 2px solid #333;
     border-radius: 15px;
     text-align: center;
     width: 400px;
 }
 
-#profile-card ing {
+#profile-card img {
     border-radius: 50%;
     margin-bottom: 15px;
 }
@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: #39399b;
+    background-color: #191976;
     color:white;
 }
 
@@ -71,7 +71,7 @@ footer {
 
 @media (max-width: 600px) {
     #profile-card {
-        width: 90%
+        width: 90%;
     }
     h2 {
         font-size: 1.5rem;
